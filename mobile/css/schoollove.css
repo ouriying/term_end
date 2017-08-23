@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu1 p{
+	margin-top:-1px;
+	/*margin-left:-10px;*/
+	margin-right:-10px;
+	padding:18px 12px 18px 14px;
+	width:100%;
+	background-color:#FC9;
+	text-align:center;
+}
+/*.menu1 li a{
+	text-decoration:none;
+}*/
+
+#menu li a{
+	font-size:17px;
+	text-decoration:none;
+	font-family:Georgia, "黑体", Times, serif;
+	color:#C93;
+}
+#menu li a p{
+	text-decoration:none;
+	font-size:16px;
+	font-family:Georgia, "行楷", Times, serif;
+	color:#000;
+	line-height:140%;
+	/*font-weight:bold;*/
+}
+#menu li {
+	background-color:#CCC;
+	list-style-type:none;
+}
+#menu li img {
+	/*float:left;*/
+	/*padding:0;*/
+	width:80%;
+	opacity: .7;
+	/*padding-bottom:4%;*/
+	
+	}
+#menu {
+	float:none!important;
+}

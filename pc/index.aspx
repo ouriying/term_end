@@ -1,0 +1,278 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="Default3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width,inital-scale=1"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/novel.css" />
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css" /> 
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>  
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $(".flexslider").flexslider();
+    });
+</script>
+<title>小说网</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+    <div>
+    <div id="menu">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小说网 <input type="text" style=" font-size:17px; font-family:Georgia, '黑体', Times, serif;
+height:28px; width:68%;border-radius:10px; background-color:#FFC" value="搜小说"/>
+</p>
+</div>
+<!--/*<script language="javascript"> 
+function changeColor(){ 
+var color="#fff|green|gray"; 
+color=color.split("|"); 
+document.getElementById("menu").style.color=color[parseInt(Math.random() * color.length)]; 
+} 
+setInterval("changeColor()",200); 
+</script>*/-->
+<div class="menu1" >
+<ul>
+<li><a href="novel.html">首页</a></li>
+<li><a href="">排行</a></li>
+<li><a href="">书架</a></li>
+<li><a href="">会员</a></li>
+<li><a href="">免费</a></li>
+</ul>
+</div>
+ <div id="d">
+<div class="flexslider">  
+      <ul class="slides">  
+      <li><a href="Default2.aspx?id=1"data-icon="gear" rel="external" ><img src="images/2.jpg" /></li>  
+      <li><a href="Default2.aspx?id=2"data-icon="gear" rel="external" ><img src="images/5.jpg" /></li>  
+      <li><a href="Default2.aspx?id=3"data-icon="gear" rel="external" ><img src="images/3.jpg" /></li>  
+      <li><a href="Default2.aspx?id=4"data-icon="gear" rel="external" ><img src="images/2.png" /></li>  
+      <li><a href="Default2.aspx?id=5"data-icon="gear" rel="external" ><img src="images/1.png" /></li> 
+       
+      </ul>
+</div>
+   
+
+
+<!--<div>
+<a href="#d1">aaa</a>
+<a href="#d2">bbbb</a>
+<div id="#d">
+<div id="d1">rrrrrrrrrrrrrrrrrrrr</div>
+<div id="d2">rrrrrrggggggggggg</div>
+</div>
+</div>-->
+
+ <div id="content">
+<nav>
+<!--/*<ul>*/-->
+<ul>
+<!--<li><h2>男频</h2></li>-->
+<li><a href="">东方玄幻</a></li>
+<li><a href="">都市生活</a></li>
+<li><a href="">现代修真</a></li>
+</ul>
+<ul>
+<li><a href="">古典仙侠</a></li>
+<li><a href="">架空历史</a></li>
+<li><a href="">军事战争</a></li>
+</ul>
+<ul>
+<li><a href="">异术超能</a></li>
+<li><a href="">虚拟网游</a></li>
+<li><a href="">时空穿梭</a></li>
+</ul>
+
+
+<!--<ul></ul>-->
+<ul>
+<!--<li><h2>女频</h2></li>-->
+<li><a href="Default.aspx">校园青春</a></li>
+<li><a href="">都市生活</a></li>
+<li><a href="">穿越重生</a></li>
+</ul>
+<ul>
+<li><a href="">浪漫言情</a></li>
+<li><a href="">忧伤青春</a></li>
+<li><a href="">玄幻仙侠</a></li>
+</ul>
+<ul>
+<li><a href="">悬疑灵异</a></li>
+<li><a href="">高干军婚</a></li>
+<li><a href="">古代言情</a></li>
+</ul>
+
+<!--<ul></ul>-->
+<ul>
+<!--/*<li><h2>文学</h2></li>*/-->
+<li><a href="">&nbsp;古典&nbsp;</a></li>
+<li><a href="">&nbsp;近代&nbsp;</a></li>
+<li><a href="">&nbsp;当代&nbsp;</a></li>
+</ul>
+<ul>
+<li><a href="">&nbsp;职场&nbsp;</a></li>
+<li><a href="">&nbsp;纪实&nbsp;</a></li>
+<li><a href="">&nbsp;影视&nbsp;</a></li>
+</ul>
+<ul>
+<li><a href="">&nbsp;少儿&nbsp;</a></li>
+<li><a href="">&nbsp;微小说&nbsp;</a></li>
+<!--<li><a href="">&nbsp;名著&nbsp;</a></li>-->
+</ul>
+</nav>
+</div>
+<div id="recomend">
+<div id="h">精品推荐</div>
+
+       <li><div id="recomend1">
+       <img src="images/2.jpg" /><a href="">微微一笑很倾城</a>
+        <p>女|青春<br/>在虚幻世界结成了侠侣，他们的爱能否延续到现实世界？</p>
+        </div>
+        </li> 
+       <li><div id="recomend1">
+       <img src="images/15.jpg" /><a href="">两生缘：倾城难宠</a>
+        <p>女|重生<br/>命运的召唤让她看见了幽山冰县棺，里面有个身穿战甲的？</p>
+        </div>
+        <li><div id="recomend1">
+        <img src="images/12.jpg" /><a href="">如果蜗牛有爱情</a>
+        <p>女|都市<br/>世界上最美的一种感情，就是两情相悦，心有灵犀？</p>
+        </div></li> 
+       <li><div id="recomend1">
+        <img src="images/14.jpg" /><a href="">慕南枝</a>
+        <p>女|古代<br/>千里相思？不如先抢了再算，前世换今生。最终能否大团圆？</p>
+        </div></li>  
+         
+        <li><div id="recomend1">
+        <img src="images/6.jpg" /><a href="">乡野村民</a>
+        <p>男|都市<br/>偶的神器，乡村任逍遥？是喜剧还是悲剧？</p>
+        </div></li>
+        <li><div id="recomend1">
+        <img src="images/13.jpg" /><a href="">我是阴阳人</a>
+        <p>女|悬疑<br/>我妈说我一出世的时候，她第一反应是要掐死我，只因我？</p>
+        </div></li>
+         
+        </li>   
+    
+</div>
+
+<div id="alllike">
+<h4>大家都在看</h4>
+<li><a href="">爆笑兵王</a>&nbsp;&nbsp;痞少为校花，入伍当兵...</li>
+<li><a href="">未来教父</a>&nbsp;&nbsp;从小混混到到老大的奋斗史...</li>
+<li><a href="">重生不良千金</a>&nbsp;&nbsp;宁负天下人，亦不让天下人...</li>
+<li><a href="">超牛都市神兵</a>&nbsp;&nbsp;面对强悍的变态对手，他秒杀...</li>
+<li><a href="">何以笙箫默</a>&nbsp;&nbsp;大学时代的赵默笙，对大才子何以琛一见...</li>
+
+       <div id="love2"><li>
+        <p><a href="">进入更多大家都在看</a></p></li> 
+        </div>
+        
+</div>
+<!--/*<div  id="menu2">
+<li><a href="#boyslove">男生</a></li>
+<li><a href="#recomend">全本</a></li>
+<li><a href="#over">女生</a></li>
+<li><a href="">包月</a></li>
+</div>*/-->
+<div id="boyslove">
+<h4>男生爱看</h4>
+<!--<div class="col-md-6 about-left">
+            <div class="about_img">
+             <img src="images/ab1.jpg" alt="">
+              <div class="about_opa">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit</p>
+              </div>
+            </div>
+        </div>-->
+
+        <li>
+        <div id="love1">
+        <div class="col-md-6 about-left">
+        <div class="about_img">
+        <img src="images/8.jpg" /><p><a href="">麻衣神算子</a></p>
+         <div class="about_opa">
+         <p>爷爷教了我一身算命的本事，我不光给活人算命，还要给死人看，更要...</p>
+              </div>
+            </div> 
+            </div>
+        </li>
+        <li>
+         <div id="love1"> 
+         <div class="col-md-6 about-left">
+        <div class="about_img">
+        <img src="images/9.jpg" /><p><a href="">最强狂兵</a></p>
+        <div class="about_opa">
+         <p>一代兵王含恨离开部队，销声匿迹几年后，逆天强者强势回归都市，再度掀起...</p>
+              </div>
+            </div> 
+        </div> 
+        </li>
+         <li>
+         <div id="love1">
+         <div class="col-md-6 about-left">
+        <div class="about_img">
+        <img src="images/10.jpg" /><p><a href="">万域之王</a></p>
+         <div class="about_opa">
+         <p>太古时代，有擎天巨灵，身如星辰，翱翔宇宙。有身怀异血的各地大尊，破灭虚空....</p>
+              </div>
+            </div> 
+        </div>
+        </li>
+        <li> 
+        <div id="love1">
+         <div class="col-md-6 about-left">
+        <div class="about_img">
+        <img src="images/11.jpg" /><p><a href="">最强战龙</a></p>
+         <div class="about_opa">
+         <p>冷逸，战场上威猛无匹的王者。都市回归之后，在这钢铁丛林的战场上，依然是...</p>
+              </div>
+            </div>  
+        </div>
+        </li>
+        <!--/*<li>
+         <div id="love1">
+        <img src="images/5.jpg" /><p><a href="">万域之王</a></p> 
+        </div>
+        </li>
+        <li> 
+        <div id="love1">
+        <img src="images/6.jpg" /><p><a href="">最强战龙</a></p> 
+        </div>
+        </li>*/-->
+        
+        <div id="love2"><li>
+        <p><a href="">进入更多男生爱看</a></p> </li>
+        </div>
+       
+        
+</div>
+<div id="over">
+<h4>完本佳作</h4>
+<li><div id="over1"><img src="images/2.jpg" /><a href="">嫡女为女配</a><p>夏染雪|宫斗|47万字<br/>
+浦一出生，她便是江府的嫡长女，娘美，爹富，祖母疼爱，她暗庆幸自己会投胎...</p>
+</div></li>
+<li><a href="">毒女重生：锦绣风华</a><p>完颜恋可|宫斗|65万字<br/>两年无求付出，她倾尽自己的一切，只温暖他那颗冰冷的心...</p></li>
+<li><a href="">莽荒纪</a><p>我吃西红柿|神话|98万字<br/>纪宁死后来到阴曹地府，经判官审前生判来世，投胎到部族纪氏...</p></li>
+<div id="love2"><li>
+        <p><a href="">进入更多完本佳作</a></p></li> 
+        </div>
+
+</div> 
+</div>
+<script language="javascript">
+    function changeColor() {
+        var color = "#C90|#C90|#fff|#fff|gray|gray";
+        color = color.split("|");
+        document.getElementById("h").style.color = color[parseInt(Math.random() * color.length)];
+    }
+    setInterval("changeColor()", 200); 
+</script>
+
+   
+    </div>
+    </form>
+</body>
+</html>

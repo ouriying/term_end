@@ -1,0 +1,245 @@
+@charset "utf-8";
+body{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+}
+
+/* CSS Document */
+.menu p{
+	font-family:Georgia, "黑体", Times, serif;
+	font-size:22px;
+	margin-top:-8px;
+	margin-left:-10px;
+	padding:14px 12px 14px 10px;
+	width:100%;
+	background-color:#FC9;
+	text-align:center;
+	margin-bottom:-15px;
+}
+
+.menu1 ul{
+	list-style-type:none;
+	margin-left:-48px;
+	margin-right:-12px;
+	padding-right:0px;
+	text-align:center;
+	padding-bottom:20px;
+	
+}
+.menu1 ul li{
+	background-color:#F90;
+	float:left;
+	width:33.3%;
+	box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1;
+	padding:12px 0px 12px 0px;
+}
+.menu1 ul li a{
+	text-decoration:none;
+	color:#FFF;
+	font-weight:bold;
+}
+.menu1 ul li a:hover{
+	text-decoration:underline;
+	line-stacking:block-line-height;
+}
+
+.context .imgs {
+	float:left;
+	margin-left:20px;
+	margin-right:12px;
+	width: 45%;
+    margin-top:20px;		
+}
+
+
+.context .imgs img{
+	padding:0;
+	width: 100%;
+	height:300px;
+	opacity: .7;
+	box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1;
+	/*padding-bottom:1%;*/
+	border:inset;
+	border-radius:5px;
+	border-color:#FFC;
+	
+	}
+.context #jianjie
+{
+	width:40%;
+	float:right;
+	margin-left:60px;
+}
+.context h4{
+	padding-top:2px;
+	font-size:26px;
+	color:#C90;
+	
+}
+.context p{
+	font-family:Georgia, "黑体", Times, serif;
+	font-size:18px;
+	
+	
+	
+}
+#bt{
+	width:100%;
+}
+button{
+	margin-bottom:30px;
+	font-family:Georgia, "黑体", Times, serif;
+	color:#960;
+	font-size:16px;
+	font-weight:600;
+	width:18%;
+	height:45px;
+	margin-left:4%;
+	background-color:#FC6;
+	border-radius:4px;
+}
+ h4{
+	/*font-size:24px;*/
+	font-family:Georgia, "楷体", Times, serif;
+	color:#990;
+	font-size:24px;	
+}
+#ctr p{
+	margin-top:-14px;
+   font-family:Georgia, "黑体", Times, serif;
+   font-size:17px;
+   line-height:150%;
+	
+}
+#gd img{
+   margin-left:-8px;
+   margin-right:-8px;
+}
+#grade{
+	margin-top:-6px;
+	float:left;
+	width:30%;
+	border:dashed;
+	/*border-color:rgba(255,9,0,.04);*/
+	border-width:thin;
+	border-radius:8px;
+	border-color:#F90;
+	margin-left:3%;
+	text-align:center;
+	margin-bottom:10px;
+}
+#grade p{
+	font-size:20px;
+	color:#F93;
+	font-weight:700;
+}
+
+#boyslove #by{
+	/*margin-left:10%;*/
+	margin-top:-12px;
+}
+#boyslove #by img{
+	/*float:left;*/
+	padding:0;
+	width: 100%;
+	opacity: .7;
+	border:groove;
+	border-width:thin;
+	border-radius:8px;
+		/*margin-right:28px;*/
+	/*border:groove;*/
+}
+#boyslove #by li {
+	font-family:Georgia, "黑体", Times, serif;
+	list-style-type:none;
+	text-align:center;
+}
+#boyslove #by li #love1 a{
+	font-size:18px;
+	color:#666;
+	text-decoration:none;
+}
+#boyslove #by li #love1 a:hover{
+	color:#FC3;
+}
+ /*#by {
+	 
+	background-color:#cccc;
+}*/
+#boyslove #by ul  li #love1{
+	width:24%;
+	margin-left:1%;
+	float:left;
+}
+.about_img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.about-left img {
+    width: 100%;
+    height: auto;
+}
+.about_opa {
+    color:#000;
+	font-weight:600;
+	font-size:14px;
+   /* padding: 50px 50px 0;*/
+    opacity: 0;
+    background:#FFC;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+}
+.about_img:hover .about_opa {
+    opacity: 0.7;
+    top: 30px;
+	bottom:50px;
+}
+
+.about_opa p {
+    line-height: 2.2em;
+    text-align: center;
+	font-size:14px;
+}	
+#love2{
+	text-align:center;
+	border:groove;
+	border-color:rgba(0,0,0,.03);
+	
+	
+}
+#love2  a{
+	text-decoration:none;
+	font-weight:600;
+	color:#F90;
+}
+#comment {
+	clear:both;
+	
+}
+#comment ul li{
+	background-color:#FFC;
+	border-top:inset;
+	border-color:rgba(0,0,0,.03);
+	margin-left:-40px;
+	list-style-type:none;
+}
+#comment li {
+	font-family:Georgia, "华文行楷", Times, serif;
+	color:#960;
+	font-size:20px;
+	/*font-weight:700;*/
+}
+#comment li p{
+	color:#333;
+	font-family:Georgia, "黑体", Times, serif;
+	font-weight:500;
+	font-size:16px;
+}
+	

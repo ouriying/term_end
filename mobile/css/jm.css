@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu{
+	/*width:100%;*/
+	height:auto;
+	
+}
+
+.menu1{
+	/*width:100%;*/
+	height:auto;
+	
+}
+	
+.menu1 ul{
+	/*font-family:Verdana,'华文琥珀', sans-serif*/
+	margin-top:-19px;
+	/*padding-bottom:.02px;*/
+	list-style-type:none;
+	margin-left:-42px;
+	padding-right:0px;
+	text-align:center;
+	
+	
+}
+.menu1 ul li{
+	font-size:16px;
+	font-family:Georgia, "黑体", Times, serif;
+	font-weight:600;
+	float:left;
+	width:20%;
+	background-color:#F90;
+	padding:6px 0px 6px 0px;
+}
+.menu1 ul li a{
+	color:#FFF; 
+	text-decoration:none;
+}
+.menu1 ul li a:hover{
+	/*background:#C60;*/
+	text-decoration:underline;
+	line-stacking:block-line-height;
+}
+
+#menu2{
+	margin-bottom:30px;
+}
+#menu2 li a{
+	color:#F60;
+	text-decoration:none;
+	font-family:Georgia, "黑体", Times, serif;
+	font-weight:600;
+}
+#menu2 li{
+	
+	list-style-type:none;
+	float:left;
+	text-align:center;
+	background-color:#CF9;
+	 -webkit-box-shadow: 0 4px 4px rgba(0,0,0,.3);
+	 -moz-box-shadow: 0 4px 4px rgba(0,0,0,.3); 
+	 -o-box-shadow: 0 4px 4px rgba(0,0,0,.3); 
+	 box-shadow: 0 4px 4px rgba(0,0,0,.3); /*zoom: 1;*/
+	width:25%;
+	height:30px;
+	padding-top:8px;  /*字体位置*/
+}
+#recomend {
+	margin-top:30px;
+	padding-top:2px;	
+}
+h4{
+	font-size:18px;
+	font-family:Georgia, "黑体", Times, serif;
+	font-weight:bold;
+	color:#C90;
+}
+#recomend li{
+	list-style-type:none;
+	margin-left:-15%;
+}
+#recomend ul li #recomend1  p{
+	font-weight:700;
+	font-family:Georgia, "黑体", Times, serif;
+	font-size:16px;
+	font-weight:lighter;
+	line-height:130%;
+}
+#recomend ul li #recomend1  a{
+	/*font-weight:600;*/
+	font-size:17px;
+	font-weight:600;
+	font-family:"黑体", Courier, monospace;
+	font-weight:bold;
+	color:#C93;
+}
+#recomend ul li #recomend1{
+	/*margin-top:-10px;*/
+	width:100%;
+	height:33.3%;
+	display:block;
+	padding-bottom:8%;
+	border-bottom:groove;
+	border-color:rgba(0,0,0,.04);
+	margin-left:-4px;
+	
+}
+#recomend li{
+	margin-top:4px;
+}
+#recomend li #recomend1 a{
+	text-decoration:none;
+}
+#recomend li #recomend1  img {
+	margin-right:10px;
+	margin-bottom:10px;
+	/*padding-right:4px;*/
+	float:left;
+	padding:0;
+	width: 40%;
+	height:40%;
+	opacity: .7;
+	/*margin-left:-32px;*/
+	/*padding-bottom:4%;*/
+	
+	}
+#alllike{
+	/*margin-top:1%;*/
+	margin-top:-6px;
+	/*padding-top:1%;*/
+	/*padding-left:-2%;*/
+}
+/*#recomend p{
+	padding:-10%;*/	
+	/*font-size:16px;	
+}*/
+#alllike li a{
+	color:#C93;
+	font-weight:bold;
+	font-size:17px;
+	font-weight:600;
+	font-family:Georgia, "黑体", Times, serif;
+	text-decoration:none;
+	padding-bottom:4px;
+}
+#alllike li{
+	font-size:16px;
+	padding-bottom:4px;
+	/*font-weight:600;*/
+	font-family:Georgia, "黑体", Times, serif;
+	border-bottom:inset;
+	list-style-type:none;
+	border-color:rgba(0,0,0,.01);
+}
+#boyslove img{
+	padding:0;
+	width: 96%;
+	opacity: .7;
+	/*margin-right:28px;*/
+	/*border:groove;*/
+}
+#boyslove li {
+	list-style-type:none;
+	text-align:center;
+}
+#boyslove li #love1 P a{
+	/*font-weight:600;*/
+	font-family:Georgia, "黑体", Times, serif;
+	font-size:17px;
+	color:#C90;
+	font-weight:bold;
+}
+#boyslove li a{
+	text-decoration:none;
+}
+#boyslove #love1{
+	width:50%;
+	float:left;
+}
+#love2{
+	background-color:#FFC;
+	text-align:center;
+	border:groove;
+	border-color:rgba(0,0,0,.04);
+	 clear:both;	
+}
+
+ #love2 li p a {
+	font-weight:600;
+	font-family:Georgia, "黑体", Times, serif ;
+	color:#F90;
+	text-align:center;
+}
+#over  li #over1  img {
+	
+	float:left;
+	padding:0;
+	width: 40%;
+	opacity: .7;
+	padding-right:10px;
+	padding-bottom:10px;
+	/*padding-bottom:1%;*/
+	/*border:inset;*/
+	/*border-radius:5px;*/
+	
+	}
+#over li{
+	
+	padding-bottom:6%;
+	border-bottom:inset;
+	list-style-type:none;
+	border-color:rgba(0,0,0,.04);
+}
+#over li a{
+	text-decoration:none;
+}
+#over  li  a{
+	/*line-height:140%;*/
+	font-size:18px;
+	font-family:"楷体", Courier, monospace;
+	font-weight:bold;
+	/*font-weight:bold;*/
+	color:#C93;
+}
+#over  li  p{
+	line-height:140%;
+	font-size:15px;
+	/*font-weight:600;*/
+	font-family:Georgia, "黑体", Times, serif;
+}
+#over  li #love2  p a {
+	font-weight:600;
+	font-size:16px;
+	font-family:Georgia, "圆幼体", Times, serif ;
+	color:#F90;
+	text-align:center;
+}
+#boyslove #love2 li  {	
+   margin-left:-5px;	
+
+}
+/*#over li a{
+   font-size:18px;
+   font-family:"楷体", Courier, monospace;
+   font-weight:bold;	
+   color:#C93;
+}*/
